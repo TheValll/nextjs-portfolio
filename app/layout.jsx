@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 export const metadata = {
   title: "Valentin Massonnière",
   description: "Valentin Massonnière Portfolio",
@@ -6,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }

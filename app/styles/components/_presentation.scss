@@ -1,0 +1,10 @@
+.presentation {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .right {
+    height: 400px;
+    width: 400px;
+  }
+}
