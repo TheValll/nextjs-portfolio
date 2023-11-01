@@ -1,10 +1,83 @@
 .presentation {
+  margin-top: 50px;
   min-height: 100vh;
   display: flex;
+  gap: 50px;
   justify-content: center;
   align-items: center;
+  animation: fadeInDown 1s ease-out;
+  .left {
+    h1 {
+      color: rgb(45, 46, 50);
+      font-family: "Poppins", sans-serif;
+      font-size: 3rem;
+    }
+    p {
+      color: rgb(85, 85, 85);
+      font-family: "Mulish", sans-serif;
+      margin-top: 10px;
+      font-size: 1.3rem;
+    }
+    .socials {
+      margin-top: 50px;
+      a {
+        margin-right: 10px;
+        cursor: pointer;
+        i {
+          font-size: 2.5rem;
+          color: rgb(45, 46, 50);
+        }
+      }
+    }
+    .tech {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      h3 {
+        color: rgb(45, 46, 50);
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+      .icon {
+        margin: 0 5px;
+        transition: 0.2s;
+        &:hover {
+          transform: translateY(-10px);
+        }
+        img {
+          margin: 0 5px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
   .right {
     height: 400px;
     width: 400px;
+    border: 5px solid rgb(45, 46, 50);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: imgAnim 8s ease-in-out infinite;
+  }
+  @keyframes imgAnim {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
