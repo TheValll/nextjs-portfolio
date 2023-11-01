@@ -19,7 +19,7 @@ const Contact = () => {
               </div>
               <div className="discord">
                 <p>
-                  <i className="fa-brands fa-discord"></i> jesaispasfrere
+                  <i className="fa-brands fa-discord"></i> thevalll
                 </p>
               </div>
               <div className="linkedin">
