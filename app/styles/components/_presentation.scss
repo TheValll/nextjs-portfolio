@@ -1,8 +1,6 @@
 .presentation {
-  margin-top: 50px;
   min-height: 100vh;
   display: flex;
-  gap: 50px;
   justify-content: center;
   align-items: center;
   animation: fadeInDown 1s ease-out;
@@ -22,10 +20,14 @@
       margin-top: 50px;
       a {
         margin-right: 10px;
-        cursor: pointer;
+        transition: 0.2s;
         i {
           font-size: 2.5rem;
           color: rgb(45, 46, 50);
+          &:hover {
+            color: #308dfb;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -53,9 +55,10 @@
     }
   }
   .right {
+    margin-left: 50px;
     height: 400px;
     width: 400px;
-    border: 5px solid rgb(45, 46, 50);
+    border: 3px solid rgb(45, 46, 50);
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     animation: imgAnim 8s ease-in-out infinite;
   }

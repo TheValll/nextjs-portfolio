@@ -2,7 +2,7 @@ import React from "react";
 
 const Presentation = () => {
   return (
-    <div className="presentation">
+    <div className="presentation" id="home">
       <div className="left">
         <div className="title">
           <h1>
@@ -11,8 +11,8 @@ const Presentation = () => {
         </div>
         <div className="description">
           <p>
-            Hi, I,m Valentin Massonnière. A passionate Full-Stack <br /> Junior
-            Developer based in LePecq, France 📍
+            Hello, I'm Valentin Massonnière, an enthusiastic Junior <br />
+            Full-Stack Developer hailing from Le Pecq, France 📍
           </p>
         </div>
         <div className="socials">
@@ -62,6 +62,9 @@ const Presentation = () => {
           backgroundSize: "cover",
         }}
       ></div>
+      <a href="#" id="scroll">
+        <div className="scroll-down"></div>
+      </a>
     </div>
   );
 };

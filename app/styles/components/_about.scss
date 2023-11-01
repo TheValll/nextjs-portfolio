@@ -1,0 +1,36 @@
+.about {
+  margin: 75px auto;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  .left {
+    display: grid;
+    place-items: center;
+  }
+  .right {
+    position: relative;
+    h3 {
+      color: #308dfb;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+    }
+    p {
+      width: 70%;
+      color: rgb(85, 85, 85);
+      font-family: "Mulish", sans-serif;
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+    &::before {
+      content: "ABOUT ME";
+      position: absolute;
+      top: -80px;
+      left: -200px;
+      z-index: -1;
+      font-family: "Poppins", sans-serif;
+      font-size: 8rem;
+      letter-spacing: 20px;
+      font-weight: 600;
+      color: rgba(85, 85, 85, 0.1);
+    }
+  }
+}

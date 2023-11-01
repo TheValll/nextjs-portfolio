@@ -1,5 +1,9 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
 import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +14,10 @@ export default function Home() {
       />
       <Navbar />
       <Presentation />
+      <About />
+      <Projects />
+      <Education />
+      <Contact />
     </div>
   );
 }
