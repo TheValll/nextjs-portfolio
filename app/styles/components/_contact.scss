@@ -61,3 +61,47 @@
     }
   }
 }
+@media screen and (max-width: 1150px) {
+  .contact {
+    .contact-container {
+      .content {
+        display: block;
+        .right {
+          margin-top: 100px;
+          &::before {
+            content: "CONTACT";
+            position: absolute;
+            top: -125px;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .contact {
+    .contact-container {
+      .content {
+        .right {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 715px) {
+  .contact {
+    .contact-container {
+      .content {
+        .left {
+          .contacts {
+            p {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

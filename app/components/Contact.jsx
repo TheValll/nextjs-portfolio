@@ -12,7 +12,9 @@ const Contact = () => {
               <div className="mail">
                 <p>
                   <i className="fa-solid fa-envelope"></i>{" "}
-                  valentin78.massonniere@gmail.com
+                  valentin78.massonniere
+                  <br />
+                  @gmail.com
                 </p>
               </div>
               <div className="discord">

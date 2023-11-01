@@ -29,4 +29,36 @@
       }
     }
   }
+  #aboutScroll,
+  #projectScroll,
+  #educationScroll,
+  #contactScroll {
+    scroll-margin-top: 150px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .navbar {
+    flex-direction: column;
+    .navbar-container {
+      margin-top: 10px;
+    }
+  }
+}
+@media screen and (max-width: 570px) {
+  .navbar {
+    .navbar-container {
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    .navbar-container {
+      a {
+        margin: 0 5px;
+      }
+    }
+  }
 }

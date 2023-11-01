@@ -131,3 +131,47 @@
     }
   }
 }
+@media screen and (max-width: 1150px) {
+  .projects {
+    .projects-container {
+      .project {
+        display: flex;
+        flex-direction: column;
+      }
+      #responsive {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+@media screen and (max-width: 570px) {
+  .projects {
+    .all-projects {
+      .all-projects-container {
+        .all {
+          a {
+            img {
+              height: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .projects {
+    .projects-container {
+      .project {
+        .right {
+          .code {
+            flex-direction: column;
+            a {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

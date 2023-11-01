@@ -45,3 +45,20 @@
     }
   }
 }
+@media screen and (max-width: 990px) {
+  .education {
+    .education-container {
+      .school {
+        display: flex;
+        flex-direction: column;
+        .right {
+          margin-top: 30px;
+        }
+      }
+      #responsive {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}

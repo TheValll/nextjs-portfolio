@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project">
+        <div className="project" id="responsive">
           <div className="right">
             <h3>Weather WebApp</h3>
             <p>

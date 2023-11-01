@@ -27,7 +27,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="school">
+        <div className="school" id="responsive">
           <div className="right">
             <div className="right-container">
               <h3>

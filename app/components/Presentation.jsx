@@ -62,7 +62,7 @@ const Presentation = () => {
           backgroundSize: "cover",
         }}
       ></div>
-      <a href="#" id="scroll">
+      <a href="#aboutScroll" id="scroll">
         <div className="scroll-down"></div>
       </a>
     </div>
