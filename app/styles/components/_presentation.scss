@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 100px auto;
   .left {
     h1 {
       color: rgb(45, 46, 50);
@@ -80,7 +81,7 @@
       transform: translate(-50%, -50%);
       position: absolute;
       left: 50%;
-      bottom: 75px;
+      bottom: -150px;
       border-radius: 50px;
       cursor: pointer;
     }
@@ -138,7 +139,17 @@
     }
     #scroll {
       .scroll-down {
-        bottom: -200px;
+        bottom: -500px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .presentation {
+    margin: 150px auto;
+    #scroll {
+      .scroll-down {
+        bottom: -550px;
       }
     }
   }
@@ -157,7 +168,7 @@
     }
     #scroll {
       .scroll-down {
-        bottom: -400px;
+        bottom: -750px;
       }
     }
   }
@@ -177,7 +188,7 @@
     }
     #scroll {
       .scroll-down {
-        bottom: -350px;
+        bottom: -750px;
       }
     }
   }
@@ -186,7 +197,7 @@
   .presentation {
     #scroll {
       .scroll-down {
-        bottom: -400px;
+        bottom: -750px;
       }
     }
   }
