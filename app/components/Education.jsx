@@ -12,7 +12,7 @@ const Education = () => {
           <div className="right">
             <div className="right-container">
               <h3>Konexio formation - Web Developer</h3>
-              <p>Sorbonne Nouvelle</p>
+              <p>Paris</p>
               <p>
                 Development of responsive and dynamic applications with Vanilla
                 🧪💻
