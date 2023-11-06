@@ -1,10 +1,10 @@
 # Welcome to My Next.js Portfolio Code! 👋
 
-This repository is the home for the source code of my personal portfolio built with [Next.js](https://nextjs.org/) and styled using [Sass](https://sass-lang.com/). Designed for performance, efficiency, and SEO optimization, this portfolio showcases my work in a clean and modern format.
+This repository is the home for the source code of my personal portfolio built with Next.js and styled using Sass. Designed for performance, efficiency, and SEO optimization, this portfolio showcases my work in a clean and modern format.
 
 ## Live Demo 🌐
 
-Check out the live demo here: [https://nextjs-portfolio-mu-self.vercel.app/](https://nextjs-portfolio-mu-self.vercel.app/)
+Check out the live demo here: https://nextjs-portfolio-mu-self.vercel.app/
 
 ## Features 🚀
 
@@ -23,15 +23,32 @@ To get this project up and running on your local machine, follow these steps:
 ```bash
 git clone https://github.com/yourusername/nextjs-portfolio.git
 cd nextjs-portfolio
-
-2. Install dependencies:
-
+Install dependencies:
+bash
+Copy code
 npm install
 # or
-yarn install```
+yarn install
+Start the development server:
+bash
+Copy code
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 with your browser to see the result.
 
-## Contributing 🤝
+Build and Deployment 🏗️
+To build the application for production, use the following command:
+
+bash
+Copy code
+npm run build
+# or
+yarn build
+You can now deploy your portfolio to a service like Vercel or Netlify.
+
+Contributing 🤝
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork this repo, make your changes, and submit a pull request.
 
-## Support 🆘
+Support 🆘
 If you run into any issues or have questions, please open an issue, and I'll get back to you as soon as possible.
