@@ -28,10 +28,10 @@ cd nextjs-portfolio
 
 npm install
 # or
-yarn install
+yarn install```
 
-Contributing 🤝
+## Contributing 🤝
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork this repo, make your changes, and submit a pull request.
 
-Support 🆘
+## Support 🆘
 If you run into any issues or have questions, please open an issue, and I'll get back to you as soon as possible.
