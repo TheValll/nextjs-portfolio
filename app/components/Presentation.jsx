@@ -57,7 +57,7 @@ const Presentation = () => {
       <div
         className="right"
         style={{
-          backgroundImage: "url(/assets/img/header_pdp.png)",
+          backgroundImage: "url(/assets/img/header_pdp.jpg)",
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
